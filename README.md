@@ -44,3 +44,18 @@ The architecture is given in the format : Input layer-> Hidden layer-> Output la
 - Model 2: 15 epochs,32 batch_size,10% validation_split,early_stopping callbacks
 - Model 3: 15 epochs,32 batch_size,10% validation_split
 - Model 4: 15 epochs,32 batch_size,10% validation_split
+
+## Model Comparison:
+Below comparison matrix shows the parameters that are used to compare all four models.
+The comprison matrix evaluates all four models on:
+- **Training Accuracy**: it defines accuracy on the training dataset.
+- **Validation Accuracy**: it defines how well our model is generalizing at the end of each epoch.
+- **Generation Gap**('Training_accuracy-Validation_accuracy'): it can be used as a indicator for overfitting or underfitting.
+- **Total Parameters**: it defines how much model is complex.
+
+| Models| Training Accuracy | Validation Accuracy | Generation Gap | Total Parameters
+|---|---|---|---|---|
+| model 1 | 0.978 | 0.913 | 0.065 | 982 |
+| model 2 | 0.938 | 0.934 | 0.004 | 982 |
+| model 3 | 0.980 | 0.978 | 0.002 | 722 |
+| model 4 | 0.938 | 0.913 | 0.026 | 722 |
