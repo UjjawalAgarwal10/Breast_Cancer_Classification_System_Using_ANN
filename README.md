@@ -66,4 +66,4 @@ Below graph showcasts training, validation, testing accuracy per epoch and a gen
 >![Training Accuracy](results/Training_Accuracy.png)
 
 - **Graph 2 : Validation Accuracy per epoch**
->![Validation Accuracy]( 
+>![Validation Accuracy](results/Validation_Accuracy.png)
