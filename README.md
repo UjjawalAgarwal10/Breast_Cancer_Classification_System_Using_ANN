@@ -59,3 +59,8 @@ The comprison matrix evaluates all four models on:
 | model 2 | 0.938 | 0.934 | 0.004 | 982 |
 | model 3 | 0.980 | 0.978 | 0.002 | 722 |
 | model 4 | 0.938 | 0.913 | 0.026 | 722 |
+
+## Visualization Graphs:-
+Below graph showcasts training, validation, testing accuracy per epoch and a generation gap per model.
+- **Graph 1 :**
+- 
