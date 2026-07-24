@@ -31,3 +31,16 @@ The architecture is given in the format : Input layer-> Hidden layer-> Output la
 
 - From above table we cay that **Model 1** and **Model 2** has same number of neurons in both hidden layer i.e 20 neurons but with different activation functions and with applying L2 regularization at each hidden layer.
 - Similarly with **Model 3** and **Model 4** has same number of neurons in both hidden layer i.e.16 neurons but with different activition functions and without applying l2 regularization at each hidden layer.
+
+
+## Compilation Settings:-
+- optimizer: adam()
+- loss: sparse_categorical_crossentropy
+- metrics: accuracy
+- Random seed fixed at 42 for reproducibility
+
+## Training Settings:-
+- Model 1: 15 epochs,32 batch_size,10% validation_split,early_stopping callbacks
+- Model 2: 15 epochs,32 batch_size,10% validation_split,early_stopping callbacks
+- Model 3: 15 epochs,32 batch_size,10% validation_split
+- Model 4: 15 epochs,32 batch_size,10% validation_split
