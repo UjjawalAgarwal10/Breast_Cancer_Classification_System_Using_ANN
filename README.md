@@ -53,7 +53,7 @@ The comprison matrix evaluates all four models on:
 - **Generation Gap**('Training_accuracy-Validation_accuracy'): it can be used as a indicator for overfitting or underfitting.
 - **Total Parameters**: it defines how much model is complex.
 
-| Models| Training Accuracy | Validation Accuracy | Generation Gap | Total Parameters
+| Models| Training Accuracy | Validation Accuracy | Generation Gap | Total Parameters |
 |---|---|---|---|---|
 | model 1 | 0.978 | 0.913 | 0.065 | 982 |
 | model 2 | 0.938 | 0.934 | 0.004 | 982 |
