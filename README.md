@@ -50,7 +50,7 @@ Below comparison matrix shows the parameters that are used to compare all four m
 The comprison matrix evaluates all four models on:
 - **Training Accuracy**: it defines accuracy on the training dataset.
 - **Validation Accuracy**: it defines how well our model is generalizing at the end of each epoch.
-- **Generation Gap**('Training_accuracy-Validation_accuracy'): it can be used as a indicator for overfitting or underfitting.
+- **Generation Gap** (`Train Accuracy - Validation Accuracy`) : it can be used as a indicator for overfitting or underfitting.
 - **Total Parameters**: it defines how much model is complex.
 
 | Models| Training Accuracy | Validation Accuracy | Generation Gap | Total Parameters |
