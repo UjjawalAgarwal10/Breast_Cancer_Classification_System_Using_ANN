@@ -64,3 +64,6 @@ The comprison matrix evaluates all four models on:
 Below graph showcasts training, validation, testing accuracy per epoch and a generation gap per model.
 - **Graph 1 : Training Accuracy per epoch**
 >![Training Accuracy](results/Training_Accuracy.png)
+
+- **Graph 2 : Validation Accuracy per epoch**
+>![Validation Accuracy]( 
