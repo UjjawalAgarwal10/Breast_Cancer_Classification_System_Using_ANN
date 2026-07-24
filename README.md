@@ -28,3 +28,6 @@ The architecture is given in the format : Input layer-> Hidden layer-> Output la
 | Dense (Hidden 1) | 20 units, **ReLU**, L2 regularization | 20 units, **Sigmoid**, L2 regularization | 16 units, **ReLU** | 16 units, **Sigmoid** |
 | Dense (Hidden 2) | 20 units, **ReLU**, L2 regularization | 20 units, **Sigmoid**, L2 regularization | 16 units, **ReLU** | 16 units, **Sigmoid** | 
 | Dense (Output) | 2 units, Softmax | 2 units, Softmax | 2 units, Softmax | 2 units, Softmax |  
+
+- From above table we cay that model 1 and model 2 has same number of neurons in both hidden layer i.e 20 neurons but with different activation functions and with applying L2 regularization at each hidden layer.
+- Similarly with model 3 and model 4 has same number of neurons in both hidden layer i.e.16 neurons but with different activition functions and without applying l2 regularization at each hidden layer.
