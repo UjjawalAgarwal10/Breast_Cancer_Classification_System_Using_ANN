@@ -71,7 +71,7 @@ Below graph showcasts training, validation, testing accuracy per epoch and a gen
 **From Graph 1 and Graph 2 :-**
 - we can divide our model in two categories: activation function and number of parameters.
 - **First in activation function, we observe that-**
-  - Relu activation function has outruns Sigmoid activation function with higher training and validation accuracy.
+  - Relu activation function has clearly outruns Sigmoid activation function with higher training and validation accuracy.
   - **Model1 and Model3** has high training and validation accuracy as compared to **Model 2 and Model 4**.
   - Between **Model1 and Model3** ,**Model3** has high training and validation accuracy with same activation function.
 
