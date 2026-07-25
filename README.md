@@ -70,11 +70,12 @@ Below graph showcasts training, validation, testing accuracy per epoch and a gen
 
 **From Graph 1 and Graph 2 :-**
 - we can divide our model in two categories: activation function and number of parameters.
-- First in activation function, we can clearly see that Relu activation has outruns Sigmoid activation function with higher training and validation accuracy.
+- **First in activation function, we observe that-**
+  - Relu activation has outruns Sigmoid activation function with higher training and validation accuracy.
   - **Model1 and Model3** has high training and validation accuracy as compared to **Model 2 and Model 4**.
   - Between **Model1 and Model3** ,**Model3** has high training and validation accuracy with same activation function.
 
-- Second in number of parameters,we observe that:-
-  - 1.Fewer parameters, better performance: **Model3** achieves the highest validation accuracy (97.8%) using only 722 parameters than **Model1 and Model2**, which have 982 parameters each. This shows that a higher parameter count does not necessarily lead to better performance.
-  - 2.Same parameter count, different outcomes: **Model3 and Model4** both have 722 parameters, yet **Model3's validation accuracy (97.8%)** is significantly higher than **Model4's (91.3%)**. This highlights that architecture design plays a more critical role than parameter count alone.
+- **Second in number of parameters,we observe that:-**
+  - **1.Fewer parameters, better performance:** **Model3** achieves the highest validation accuracy (97.8%) using only 722 parameters than **Model1 and Model2**, which have 982 parameters each. This shows that a higher parameter count does not necessarily lead to better performance.
+  - **2.Same parameter count, different outcomes:** **Model3 and Model4** both have 722 parameters, yet **Model3's validation accuracy (97.8%)** is significantly higher than **Model4's (91.3%)**. This highlights that architecture design plays a more critical role than parameter count alone.
     
