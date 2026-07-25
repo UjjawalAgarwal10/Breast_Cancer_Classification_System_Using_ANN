@@ -80,5 +80,10 @@ Below graph showcasts training, validation, testing accuracy per epoch and a gen
   - **2.Same parameter count, different outcomes:** **Model3 and Model4** both have 722 parameters, yet **Model3's validation accuracy (97.8%)** is significantly higher than **Model4's (91.3%)**. This highlights that architecture design plays a more critical role than parameter count alone.
 
  - **Graph 3: Generation Gap per model**
-
+>![Generation Gap](results/Generation_gap.png)
+- **From above graph we can conclude that:-**
+  - The Generation Gap can be defined as difference between Training accuracy and Validation accuracy which can be used as an indicator of overfitting or underfitting.
+  - Minimum the generation gap,best the model is.
+  - Model3 also has the lowest generation gap (0.002) despite having the smallest number of parameters, making it the most efficient and best-generalizing model among the four.
+    
     
