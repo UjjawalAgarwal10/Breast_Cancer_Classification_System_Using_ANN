@@ -87,7 +87,7 @@ Below graph showcasts training, validation, testing accuracy per epoch and a gen
   - Model3 also has the lowest generation gap (0.002) despite having the smallest number of parameters, making it the most efficient and best-generalizing model among the four.
 
 ## Result:-
-- from above model comparison and visualization graphs, we conclude that the best model is **Model3** from all of them because:
+- From above model comparison and visualization graphs, we conclude that the best model is **Model3** from all of them because:
   - **1. With high training(0.980) and validation(0.978) accuracy.**
   - **2. With minimum generation gap(0.002).**
   - **3. With the less number of parameters(722) or less complexity.**
