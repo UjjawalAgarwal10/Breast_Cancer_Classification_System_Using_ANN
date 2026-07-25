@@ -92,7 +92,9 @@ Below graph showcasts training, validation, testing accuracy per epoch and a gen
   - **2. With minimum generation gap(0.002).**
   - **3. With the less number of parameters(722) or less complexity.**
  
-## Confusion_matrix(best model; Model3):-
+## Confusion_matrix(best model: Model3):-
+>![Confusion Matrix](results/Confusion_matrix.png)
+
 
     
     
