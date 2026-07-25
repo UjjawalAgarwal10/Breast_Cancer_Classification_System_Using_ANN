@@ -98,12 +98,14 @@ Below graph showcasts training, validation, testing accuracy per epoch and a gen
 ## Prediction(best model: Model3):-
 >![Prediction](results/Prediction.png)
 
-## Project Structure:-
+##  Project Structure
+
 ```
 ├── breast-cancer-classifier-using-ann.ipynb   # Main notebook
 ├── model3.keras                                # Saved best model
 └── README.md
 ```
+
 ## Key Takeaways:-
 
 - L2 regularization was applied to **Model1 and Model2** to help prevent overfitting.
